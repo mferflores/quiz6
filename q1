@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+ long superpower (long a, long b){
+  long value = 1;
+  for (int x=0;x<b;x++){
+    value=value*a;
+    }
+    return value;
+}
+int main(){
+  long a,b;
+    long c;
+  cout<<"Enter a value:";
+  cin>> a;
+  cout<<"Enter another value:";
+  cin>> b;
+  c=superpower (a,b);
+  cout<<c<<endl;
+  return 0;
+}
