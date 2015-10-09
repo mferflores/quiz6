@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+void stars (int a){
+  for (int x=0;x<a;x++){
+    cout<<'*';
+    }
+
+}
+int main(){
+  int a;
+  cout<<"How many stars do you want to print?";
+  cin>> a;
+  stars (a);
+  return 0;
+}
